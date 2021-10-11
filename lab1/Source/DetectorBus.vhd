@@ -56,7 +56,8 @@ begin
 			trigger<='0';
 		end if;
 
-	if (DataBus(31 downto 0)="11110000111100001111000011110000" or 
+	-- if (DataBus(31 downto 0)="11110000111100001111000011110000" or 
+	if (DataBus(31 downto 0)="00011000000110000001100000011000" or
           DataBus(31 downto 0)="11110010111100101111001011110010") then
 		
 		rst_ff<='1';
