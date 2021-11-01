@@ -43,7 +43,7 @@ component state_machine is
     -- Wierd stuff
     dmai    : out ahb_dma_in_type;
     dmao    : in ahb_dma_out_type;
-    -- ARM Cortext-M0 AHB-Lite signals
+    -- ARM Cortex-M0 AHB-Lite signals
     HADDR   : in std_logic_vector (31 downto 0);
     HSIZE   : in std_logic_vector (2 downto 0);
     HTRANS  : in std_logic_vector (1 downto 0);
@@ -56,8 +56,8 @@ end component;
 component ahbmst is
   port(
     -- Clock and reset
-    clkm : in std_logic;
-    rstn : in std_logic;
+    rst : in std_logic;
+    clk : in std_logic;
     -- AHB fun things
     dmai : in  ahb_dma_in_type;
     dmao : out ahb_dma_out_type;
@@ -80,15 +80,15 @@ signal dmao : ahb_dma_out_type;
  
 begin 
  
---instantiate state_machine component and make the connections 
+-- instantiate state_machine component and make the connections 
 init_state_machine : state_machine
   port map (clkm, rstn, dmai, dmao, HADDR, HSIZE, HTRANS, HWRITE, HREADY);
  
---instantiate the ahbmst component and make the connections   
+-- instantiate the ahbmst component and make the connections   
 init_ahbmst : ahbmst
-  port  map (clkm, rstn, dmai, dmao, ahbmo, ahbmi);
+  port map (rstn, clkm, dmai, dmao, ahbmo, ahbmi);
  
---instantiate the data_swapper component and make the connections 
+-- instantiate the data_swapper component and make the connections 
 init_data_swapper : data_swapper
   port map (dmao, HRDATA);
  

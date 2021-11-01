@@ -12,7 +12,7 @@ Z5 DPx5 grlib 4 amba 0 22 f_JkUSh>VSK]e^QdO^JMD0
 Z6 DPx7 techmap 7 gencomp 0 22 fA@NZ:l4lLPzZlfC6BX<H0
 Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z9 w1634553284
+Z9 w1634549684
 Z10 dO:\Git\embedded-rts\lab2-2\designs\leon3-xilinx-xc3sd-1800
 8O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allclkgen.vhd
 FO:/Git/embedded-rts/lab2-2/lib/techmap/maps/allclkgen.vhd
@@ -26,7 +26,7 @@ Z13 o-work techmap -93 -source -nowarn 1 -nowarn 5 -cover s
 Z14 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
 !s100 jeS293HnBMmzX?;0T4]>]3
 !i10b 1
-!s108 1635154637.393000
+!s108 1635766103.073000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allclkgen.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allclkgen.vhd|
 Pallddr
@@ -52,7 +52,7 @@ R13
 R14
 !s100 bCcL0>9LGg7QCnZi8imkm3
 !i10b 1
-!s108 1635154637.609000
+!s108 1635766103.319000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allddr.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allddr.vhd|
 Pallmem
@@ -72,7 +72,7 @@ R13
 R14
 !s100 oQlXYY2L`e4P;8:6ghJU]2
 !i10b 1
-!s108 1635154637.841000
+!s108 1635766103.868000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allmem.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allmem.vhd|
 Pallmul
@@ -92,7 +92,7 @@ R13
 R14
 !s100 PBE44goDV9cn6g`iVmLE]2
 !i10b 1
-!s108 1635154638.095000
+!s108 1635766104.127000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allmul.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allmul.vhd|
 Pallpads
@@ -118,7 +118,7 @@ R13
 R14
 !s100 KZmP8ede25H3kdm6PeEES0
 !i10b 1
-!s108 1635154638.311000
+!s108 1635766104.345000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allpads.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/allpads.vhd|
 Palltap
@@ -138,7 +138,7 @@ R13
 R14
 !s100 VG5SM^5KfB`TZjAal9c:W1
 !i10b 1
-!s108 1635154638.542000
+!s108 1635766104.622000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/alltap.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/alltap.vhd|
 Eclkand
@@ -160,7 +160,7 @@ L31
 Vi:V2cfCFil]G5d6fDlDh10
 R11
 31
-Z19 !s108 1635154639.413000
+Z19 !s108 1635766105.818000
 Z20 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkand.vhd|
 Z21 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkand.vhd|
 R12
@@ -193,7 +193,7 @@ R14
 !s100 2mOB[<8Ioe9EJNM1N]g5F1
 !i10b 1
 Eclkand_unisim
-Z22 w1634553287
+Z22 w1634549687
 Z23 DEx6 unisim 7 bufgmux 0 22 A<MCIU4Y@XhTAHXi3=Coj0
 R7
 R8
@@ -205,7 +205,7 @@ L925
 VeBdLXGH>]g5oDDDlOOk<H1
 R11
 31
-Z26 !s108 1635154627.769000
+Z26 !s108 1635766089.923000
 Z27 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/clkgen_unisim.vhd|
 Z28 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/clkgen_unisim.vhd|
 R12
@@ -245,7 +245,7 @@ L34
 Vm]1_CY9l;Vll2IhzE;d2D2
 R11
 31
-Z33 !s108 1635154624.747000
+Z33 !s108 1635766085.376000
 Z34 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/buffer_unisim.vhd|
 Z35 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/buffer_unisim.vhd|
 R12
@@ -289,7 +289,7 @@ L32
 VZi^aP:BL>=Ieibg8jlRWh2
 R11
 31
-Z39 !s108 1635154638.743000
+Z39 !s108 1635766104.852000
 Z40 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkgen.vhd|
 Z41 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkgen.vhd|
 R12
@@ -609,7 +609,7 @@ L31
 VEb[KcHzX8@ek^OOM<RkG<1
 R11
 31
-Z49 !s108 1635154639.066000
+Z49 !s108 1635766105.496000
 Z50 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkmux.vhd|
 Z51 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkmux.vhd|
 R12
@@ -736,7 +736,7 @@ L32
 VS9K=[NmV9Ro2@nU=BWh_n0
 R11
 31
-Z55 !s108 1635154644.881000
+Z55 !s108 1635766113.606000
 Z56 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkpad.vhd|
 Z57 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkpad.vhd|
 R12
@@ -787,7 +787,7 @@ L32
 VhU1d3gYYjT@=<bNQH7__a2
 R11
 31
-Z60 !s108 1635154645.243000
+Z60 !s108 1635766114.311000
 Z61 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkpad_ds.vhd|
 Z62 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/clkpad_ds.vhd|
 R12
@@ -887,7 +887,7 @@ L35
 VMz`YhQlFPAzofP=5iK>8N3
 R11
 31
-Z67 !s108 1635154653.433000
+Z67 !s108 1635766125.259000
 Z68 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/cpu_disas_net.vhd|
 Z69 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/cpu_disas_net.vhd|
 R12
@@ -936,7 +936,7 @@ L223
 VoBM[aJBHeNZE]O82@8MNN2
 R11
 31
-Z73 !s108 1635154641.003000
+Z73 !s108 1635766109.167000
 Z74 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ddrphy.vhd|
 Z75 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ddrphy.vhd|
 R12
@@ -987,7 +987,7 @@ L31
 V4XjPa9eRYZ18I^i[a_izL1
 R11
 31
-Z78 !s108 1635154639.930000
+Z78 !s108 1635766106.942000
 Z79 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ddr_ireg.vhd|
 Z80 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ddr_ireg.vhd|
 R12
@@ -1038,7 +1038,7 @@ L31
 VJQV8CROnz5>>76MblTgBb3
 R11
 31
-Z83 !s108 1635154640.247000
+Z83 !s108 1635766108.202000
 Z84 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ddr_oreg.vhd|
 Z85 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ddr_oreg.vhd|
 R12
@@ -1122,7 +1122,7 @@ R14
 !s100 HkVF]TZ>b?2n[dkg:XBkz1
 !i10b 1
 Edw_mul_61x61
-Z86 w1634553282
+Z86 w1634549682
 Z87 DPx8 synopsys 10 attributes 0 22 J^T`lPA_8_J<l8kQiVE]>2
 Z88 DPx4 ieee 14 std_logic_misc 0 22 >dU:RInm^_6_mBJ^<6QGY2
 Z89 DPx5 dware 24 dw_foundation_comp_arith 0 22 ]DBO3]dgg[MdhJz7^a@Wh3
@@ -1137,7 +1137,7 @@ L77
 V?Am=TTYCl_OH_KPmMndSC3
 R11
 31
-Z93 !s108 1635154622.441000
+Z93 !s108 1635766081.937000
 Z94 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/dware/mul_dware.vhd|
 Z95 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/dware/mul_dware.vhd|
 R12
@@ -1214,7 +1214,7 @@ R14
 !s100 bJTWB<1d[mPTo:6oF0HfU2
 !i10b 1
 Egen_ddr_phy_ireg
-Z96 w1634553283
+Z96 w1634549683
 R7
 R8
 R10
@@ -1225,7 +1225,7 @@ L86
 VgjAnN5Z9nc<_HIe`8MYnb0
 R11
 31
-Z99 !s108 1635154621.254000
+Z99 !s108 1635766080.803000
 Z100 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/ddr_phy_inferred.vhd|
 Z101 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/ddr_phy_inferred.vhd|
 R12
@@ -1336,7 +1336,7 @@ L29
 V]4FlTzMEORKUY=I^c]WY]0
 R11
 31
-Z104 !s108 1635154620.352000
+Z104 !s108 1635766079.043000
 Z105 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/ddr_inferred.vhd|
 Z106 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/ddr_inferred.vhd|
 R12
@@ -1376,7 +1376,7 @@ L32
 VGBlEhL7=BCAAGAA2YCo8U0
 R11
 31
-Z109 !s108 1635154620.700000
+Z109 !s108 1635766080.002000
 Z110 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/mul_inferred.vhd|
 Z111 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/mul_inferred.vhd|
 R12
@@ -1471,7 +1471,7 @@ R13
 R14
 !s100 dGefN0<WWFXWPD>LcI21h3
 !i10b 1
-!s108 1635154618.564000
+!s108 1635766076.463000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/gencomp/gencomp.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/gencomp/gencomp.vhd|
 Egeneric_ddr2_phy
@@ -1587,7 +1587,7 @@ L219
 V7T00EeeY=kGFm9fdFOj5;0
 R11
 31
-Z115 !s108 1635154619.049000
+Z115 !s108 1635766077.023000
 Z116 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/memory_inferred.vhd|
 Z117 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/memory_inferred.vhd|
 R12
@@ -1848,7 +1848,7 @@ L31
 VQC3HhGinJSa94H3W8C9oU1
 R11
 31
-Z120 !s108 1635154652.430000
+Z120 !s108 1635766124.166000
 Z121 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grfpw_net.vhd|
 Z122 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grfpw_net.vhd|
 R12
@@ -1897,7 +1897,7 @@ L31
 V=AXUBkYXj1b]o`@=V1B]b3
 R11
 31
-Z125 !s108 1635154652.098000
+Z125 !s108 1635766123.415000
 Z126 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grlfpw_net.vhd|
 Z127 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grlfpw_net.vhd|
 R12
@@ -1947,7 +1947,7 @@ L31
 V]mcQ_UL=4FRg_?2[Ql]kd2
 R11
 31
-Z130 !s108 1635154655.284000
+Z130 !s108 1635766127.803000
 Z131 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grgates.vhd|
 Z132 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grgates.vhd|
 R12
@@ -1997,7 +1997,7 @@ L31
 V20FFCiCe5STOWzeo4kzDP2
 R11
 31
-Z135 !s108 1635154651.775000
+Z135 !s108 1635766123.029000
 Z136 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grspwc2_net.vhd|
 Z137 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grspwc2_net.vhd|
 R12
@@ -2040,7 +2040,7 @@ L30
 VNF6zgaM<S_<E@`RGkZE930
 R11
 31
-Z140 !s108 1635154633.451000
+Z140 !s108 1635766098.354000
 Z141 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/grspwc2_unisim.vhd|
 Z142 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/grspwc2_unisim.vhd|
 R12
@@ -2083,7 +2083,7 @@ L31
 V2<>9EHe4]gLTPe=2j0dRC3
 R11
 31
-Z145 !s108 1635154651.458000
+Z145 !s108 1635766122.698000
 Z146 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grspwc_net.vhd|
 Z147 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grspwc_net.vhd|
 R12
@@ -2126,7 +2126,7 @@ L30
 V?9[C<kT7R7c6HGGX6n4V;2
 R11
 31
-Z150 !s108 1635154633.128000
+Z150 !s108 1635766098.040000
 Z151 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/grspwc_unisim.vhd|
 Z152 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/grspwc_unisim.vhd|
 R12
@@ -2169,7 +2169,7 @@ L30
 VQ=P9TeAmOd;J?ccZaHafo0
 R11
 31
-Z155 !s108 1635154653.918000
+Z155 !s108 1635766125.802000
 Z156 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grusbhc_net.vhd|
 Z157 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/grusbhc_net.vhd|
 R12
@@ -2218,7 +2218,7 @@ L40
 V?[hQcNU@BNOl7jQMg]PoW0
 R11
 31
-Z160 !s108 1635154633.768000
+Z160 !s108 1635766098.697000
 Z161 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/grusbhc_unisim.vhd|
 Z162 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/grusbhc_unisim.vhd|
 R12
@@ -2268,7 +2268,7 @@ L32
 V>QzzSRjNb[]ENn<3^g71l1
 R11
 31
-Z165 !s108 1635154645.560000
+Z165 !s108 1635766115.266000
 Z166 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/inpad.vhd|
 Z167 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/inpad.vhd|
 R12
@@ -2320,7 +2320,7 @@ L35
 VQ:Vi5NQGm4bhM:DzzoWW32
 R11
 31
-Z170 !s108 1635154655.607000
+Z170 !s108 1635766128.444000
 Z171 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/inpad_ddr.vhd|
 Z172 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/inpad_ddr.vhd|
 R12
@@ -2421,7 +2421,7 @@ L32
 VZ?=hFb1LCPDz7GoGRR`L43
 R11
 31
-Z175 !s108 1635154646.114000
+Z175 !s108 1635766115.786000
 Z176 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/inpad_ds.vhd|
 Z177 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/inpad_ds.vhd|
 R12
@@ -2570,7 +2570,7 @@ L32
 VYW]<3[Ub85n;3AfTF@ma70
 R11
 31
-Z180 !s108 1635154646.636000
+Z180 !s108 1635766116.319000
 Z181 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iodpad.vhd|
 Z182 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iodpad.vhd|
 R12
@@ -2652,7 +2652,7 @@ R14
 !s100 FD8^Ihbn5VBcIUPBMlKiA3
 !i10b 1
 Eiopad
-Z183 w1634553285
+Z183 w1634549685
 R52
 R1
 R2
@@ -2670,7 +2670,7 @@ L32
 VRX2X][PWNAJ>eK;PJZ`KC3
 R11
 31
-Z186 !s108 1635154647.164000
+Z186 !s108 1635766116.820000
 Z187 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iopad.vhd|
 Z188 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iopad.vhd|
 R12
@@ -2722,7 +2722,7 @@ L35
 Vm?<jUW^X5Nd94<fM<AKcI0
 R11
 31
-Z191 !s108 1635154656.687000
+Z191 !s108 1635766129.536000
 Z192 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iopad_ddr.vhd|
 Z193 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iopad_ddr.vhd|
 R12
@@ -2872,7 +2872,7 @@ L32
 VTlba^z24Jc9hRW1J3JWA32
 R11
 31
-Z196 !s108 1635154647.903000
+Z196 !s108 1635766117.812000
 Z197 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iopad_ds.vhd|
 Z198 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/iopad_ds.vhd|
 R12
@@ -3119,7 +3119,7 @@ L28
 VzUB1<7V`M`5B]8MkX60VW3
 R11
 31
-Z202 !s108 1635154652.761000
+Z202 !s108 1635766124.528000
 Z203 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/leon4_net.vhd|
 Z204 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/leon4_net.vhd|
 R12
@@ -3170,7 +3170,7 @@ L32
 V@N9Wgoz`U[1`SelLMi[`W0
 R11
 31
-Z207 !s108 1635154648.589000
+Z207 !s108 1635766118.517000
 Z208 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/lvds_combo.vhd|
 Z209 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/lvds_combo.vhd|
 R12
@@ -3220,7 +3220,7 @@ L31
 VSWKF]I:kg<io=`A1HgiDL0
 R11
 31
-Z212 !s108 1635154653.116000
+Z212 !s108 1635766124.911000
 Z213 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/mul_61x61.vhd|
 Z214 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/mul_61x61.vhd|
 R12
@@ -3314,7 +3314,7 @@ L30
 VEaScl^QO<:MW@h0A1D^Tf3
 R11
 31
-Z217 !s108 1635154644.542000
+Z217 !s108 1635766113.279000
 Z218 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/nandtree.vhd|
 Z219 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/nandtree.vhd|
 R12
@@ -3368,7 +3368,7 @@ R13
 R14
 !s100 Il4K5:E87QhmPbMcCT^fh3
 !i10b 1
-!s108 1635154618.818000
+!s108 1635766076.748000
 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/gencomp/netcomp.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/gencomp/netcomp.vhd|
 Eoddrc3e
@@ -3392,7 +3392,7 @@ L347
 Vi7kmG:UVGU8eQJ42i6WRA2
 R11
 31
-Z224 !s108 1635154630.876000
+Z224 !s108 1635766095.075000
 Z225 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/ddr_unisim.vhd|
 Z226 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/ddr_unisim.vhd|
 R12
@@ -3494,7 +3494,7 @@ L32
 V8[SKL]]CKCdP4Z^I:5L[`0
 R11
 31
-Z230 !s108 1635154648.906000
+Z230 !s108 1635766119.139000
 Z231 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/odpad.vhd|
 Z232 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/odpad.vhd|
 R12
@@ -3594,7 +3594,7 @@ L32
 Vf2ZO3=4iRbkQS]A>U4FT63
 R11
 31
-Z235 !s108 1635154649.391000
+Z235 !s108 1635766119.633000
 Z236 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/outpad.vhd|
 Z237 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/outpad.vhd|
 R12
@@ -3646,7 +3646,7 @@ L36
 VW>Jj^aS]DBWfP]H16GhW81
 R11
 31
-Z240 !s108 1635154656.171000
+Z240 !s108 1635766128.972000
 Z241 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/outpad_ddr.vhd|
 Z242 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/outpad_ddr.vhd|
 R12
@@ -3747,7 +3747,7 @@ L32
 V:4dA]m@J`>R8oZIG4Ff4L0
 R11
 31
-Z245 !s108 1635154649.892000
+Z245 !s108 1635766120.310000
 Z246 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/outpad_ds.vhd|
 Z247 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/outpad_ds.vhd|
 R12
@@ -3896,7 +3896,7 @@ L32
 VTF8Oo:o2@BP_Nf<=G]<k]2
 R11
 31
-Z251 !s108 1635154643.509000
+Z251 !s108 1635766112.300000
 Z252 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/regfile_3p.vhd|
 Z253 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/regfile_3p.vhd|
 R12
@@ -3946,7 +3946,7 @@ L30
 VVGcIifWo??LlAb=VcXE_a0
 R11
 31
-Z256 !s108 1635154654.266000
+Z256 !s108 1635766126.163000
 Z257 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ringosc.vhd|
 Z258 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ringosc.vhd|
 R12
@@ -3992,7 +3992,7 @@ Vd4g2?;N;fj3fiWT=``AK;0
 R11
 31
 !i10b 1
-Z262 !s108 1635154659.717000
+Z262 !s108 1635766134.222000
 Z263 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/scanreg.vhd|
 Z264 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/scanreg.vhd|
 R12
@@ -4113,7 +4113,7 @@ L32
 VCY_UI23L1k<91R84Um?J21
 R11
 31
-Z276 !s108 1635154651.110000
+Z276 !s108 1635766122.373000
 Z277 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/skew_outpad.vhd|
 Z278 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/skew_outpad.vhd|
 R12
@@ -4146,7 +4146,7 @@ R14
 !s100 iI@abDA>02T`CCcQofO=B2
 !i10b 1
 Espartan3_tap
-Z279 w1634553288
+Z279 w1634549688
 DEx6 unisim 14 bscan_spartan3 0 22 =c:_ZCI;Dd5Qn6[ZWd;J00
 R7
 R8
@@ -4158,7 +4158,7 @@ L151
 Vi1:d=hhH91nNh?lojR44>3
 R11
 31
-Z282 !s108 1635154629.419000
+Z282 !s108 1635766092.728000
 Z283 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/tap_unisim.vhd|
 Z284 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/tap_unisim.vhd|
 R12
@@ -4208,7 +4208,7 @@ L2041
 V?ddOScHAXNU8MQPVKDW5j2
 R11
 31
-Z289 !s108 1635154631.779000
+Z289 !s108 1635766096.297000
 Z290 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/ddr_phy_unisim.vhd|
 Z291 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/ddr_phy_unisim.vhd|
 R12
@@ -4409,7 +4409,7 @@ L32
 V]S`09iQ_h>HnRm5`mdeXb2
 R11
 31
-Z294 !s108 1635154659.378000
+Z294 !s108 1635766133.883000
 Z295 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/spictrl_net.vhd|
 Z296 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/spictrl_net.vhd|
 R12
@@ -4453,7 +4453,7 @@ L17
 VDT1DSIN17Jk;SIMiWFlLf2
 R11
 31
-Z299 !s108 1635154636.074000
+Z299 !s108 1635766101.479000
 Z300 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/spictrl_unisim.vhd|
 Z301 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/spictrl_unisim.vhd|
 R12
@@ -4493,7 +4493,7 @@ L77
 VJ_<eo=KCJn[Qin5VB3mOL2
 R11
 31
-Z305 !s108 1635154636.375000
+Z305 !s108 1635766101.796000
 Z306 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/spictrl_unisim_comb0.vhd|
 Z307 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/spictrl_unisim_comb0.vhd|
 R12
@@ -4534,7 +4534,7 @@ L76
 VhYD`i3cSo;<g4_];7B::P2
 R11
 31
-Z310 !s108 1635154636.907000
+Z310 !s108 1635766102.282000
 Z311 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/spictrl_unisim_comb1.vhd|
 Z312 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/spictrl_unisim_comb1.vhd|
 R12
@@ -4579,7 +4579,7 @@ L30
 Vo_Ek5HKaO:R3BoW:1NGHY1
 R11
 31
-Z315 !s108 1635154654.620000
+Z315 !s108 1635766126.505000
 Z316 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ssrctrl_net.vhd|
 Z317 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/ssrctrl_net.vhd|
 R12
@@ -4623,7 +4623,7 @@ L31
 VdTi=8lZDD9ES4Z>3g06zZ1
 R11
 31
-Z320 !s108 1635154634.100000
+Z320 !s108 1635766099.037000
 Z321 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/ssrctrl_unisim.vhd|
 Z322 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/ssrctrl_unisim.vhd|
 R12
@@ -4706,7 +4706,7 @@ L33
 VnJc1ca?:KHm[maCQg2Jz[1
 R11
 31
-Z325 !s108 1635154643.170000
+Z325 !s108 1635766111.691000
 Z326 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncfifo.vhd|
 Z327 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncfifo.vhd|
 R12
@@ -4756,7 +4756,7 @@ L34
 V_6nc<^<TY[W2IU6F51W[63
 R11
 31
-Z331 !s108 1635154641.635000
+Z331 !s108 1635766110.053000
 Z332 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram.vhd|
 Z333 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram.vhd|
 R12
@@ -4806,7 +4806,7 @@ L35
 VJ0:3?Um;m>FmgL]25Sn^G1
 R11
 31
-Z336 !s108 1635154657.743000
+Z336 !s108 1635766132.244000
 Z337 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram128.vhd|
 Z338 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram128.vhd|
 R12
@@ -4855,7 +4855,7 @@ L35
 VPiCNePZEXY0>15DKjKU@g2
 R11
 31
-Z341 !s108 1635154657.411000
+Z341 !s108 1635766130.915000
 Z342 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram128bw.vhd|
 Z343 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram128bw.vhd|
 R12
@@ -4904,7 +4904,7 @@ L33
 V5EkmPU_dVz]UJ[e=D@2Ce0
 R11
 31
-Z346 !s108 1635154658.244000
+Z346 !s108 1635766132.887000
 Z347 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram156bw.vhd|
 Z348 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram156bw.vhd|
 R12
@@ -4953,7 +4953,7 @@ L35
 Vd`XWhn^2_nE=1;kT@9_cP0
 R11
 31
-Z351 !s108 1635154641.974000
+Z351 !s108 1635766110.385000
 Z352 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram64.vhd|
 Z353 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram64.vhd|
 R12
@@ -5003,7 +5003,7 @@ L35
 VU58jK7IeBLlIYD_o4IdKB2
 R11
 31
-Z356 !s108 1635154642.321000
+Z356 !s108 1635766110.718000
 Z357 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram_2p.vhd|
 Z358 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram_2p.vhd|
 R12
@@ -5054,7 +5054,7 @@ L35
 VL<B@FTkOY97m0V0FCBWWG3
 R11
 31
-Z361 !s108 1635154642.807000
+Z361 !s108 1635766111.355000
 Z362 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram_dp.vhd|
 Z363 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/syncram_dp.vhd|
 R12
@@ -5101,7 +5101,7 @@ L38
 VKRRC01_39GG6HUbVka>L40
 R11
 31
-Z366 !s108 1635154634.733000
+Z366 !s108 1635766099.749000
 Z367 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/sysmon_unisim.vhd|
 Z368 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/sysmon_unisim.vhd|
 R12
@@ -5129,7 +5129,7 @@ R14
 !s100 J^kl1>lJjZUT4N=^ONK^H1
 !i10b 1
 Esystem_monitor
-Z369 w1634553286
+Z369 w1634549686
 R1
 R2
 R3
@@ -5146,7 +5146,7 @@ L31
 VVdd4Vk;?:P1jhbTUXk2bS1
 R11
 31
-Z372 !s108 1635154654.937000
+Z372 !s108 1635766127.154000
 Z373 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/system_monitor.vhd|
 Z374 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/system_monitor.vhd|
 R12
@@ -5196,7 +5196,7 @@ L35
 V]hY<nY1OI>PVIeaJOTF][0
 R11
 31
-Z377 !s108 1635154643.841000
+Z377 !s108 1635766112.635000
 Z378 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/tap.vhd|
 Z379 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/tap.vhd|
 R12
@@ -5246,7 +5246,7 @@ L30
 V^3W=9F8k1bjF^iSib1c5E2
 R11
 31
-Z382 !s108 1635154644.195000
+Z382 !s108 1635766112.952000
 Z383 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/techbuf.vhd|
 Z384 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/techbuf.vhd|
 R12
@@ -5297,7 +5297,7 @@ L35
 VA]BZOP07C`H0jPLZ@P<m=1
 R11
 31
-Z389 !s108 1635154658.614000
+Z389 !s108 1635766133.221000
 Z390 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/techmult.vhd|
 Z391 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/techmult.vhd|
 R12
@@ -5349,7 +5349,7 @@ L32
 Vb3i>`3CnFGMA2MZ^JUn6m0
 R11
 31
-Z394 !s108 1635154650.393000
+Z394 !s108 1635766120.794000
 Z395 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/maps/toutpad.vhd|
 Z396 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/maps/toutpad.vhd|
 R12
@@ -5501,7 +5501,7 @@ L479
 VgT[RA3zMZjPoAhz6lbR7D1
 R11
 31
-Z400 !s108 1635154625.248000
+Z400 !s108 1635766086.170000
 Z401 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/pads_unisim.vhd|
 Z402 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/pads_unisim.vhd|
 R12
@@ -6061,7 +6061,7 @@ L394
 VoE4H6Q;eC^m68`=g4kTjU3
 R11
 31
-Z410 !s108 1635154623.005000
+Z410 !s108 1635766082.470000
 Z411 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/memory_unisim.vhd|
 Z412 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/memory_unisim.vhd|
 R12
@@ -6599,7 +6599,7 @@ L7
 V3XFDoVWcbbWLoRkPGNhj:2
 R11
 31
-Z415 !s108 1635154635.071000
+Z415 !s108 1635766100.392000
 Z416 !s90 -reportprogress|300|-work|techmap|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/mul_unisim.vhd|
 Z417 !s107 O:/Git/embedded-rts/lab2-2/lib/techmap/unisim/mul_unisim.vhd|
 R12

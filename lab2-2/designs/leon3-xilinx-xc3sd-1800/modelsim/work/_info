@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 d/home/eejlny/projects/leon3_ERTS/grlib-gpl-1.1.0-b4108/designs/leon3-xilinx-xc3sd-1800
 Eahb_bridge
-Z1 w1635156192
+Z1 w1635770356
 Z2 DPx6 unisim 11 vcomponents 0 22 hMjo2zK]ScI_H][A^HPNj0
 Z3 DPx7 techmap 7 gencomp 0 22 fA@NZ:l4lLPzZlfC6BX<H0
 Z4 DPx7 gaisler 4 misc 0 22 d6SO014Ae7CN46I_AT_L73
@@ -22,15 +22,15 @@ Z15 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahblite_bridge.v
 l0
 L16
 V?1LkLfJ6cF0hOzckADf342
+!s100 l8PK7B2cVnh8^MVbi=E`80
 Z16 OL;C;10.1b;51
 31
-Z17 !s108 1635156196.076000
+!i10b 1
+Z17 !s108 1635770387.631000
 Z18 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahblite_bridge.vhd|
 Z19 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahblite_bridge.vhd|
 Z20 o-work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5
 Z21 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
-!s100 l8PK7B2cVnh8^MVbi=E`80
-!i10b 1
 Astructural
 R2
 R3
@@ -43,21 +43,21 @@ R9
 R10
 R11
 R12
-DEx4 work 10 ahb_bridge 0 22 ?1LkLfJ6cF0hOzckADf342
+Z22 DEx4 work 10 ahb_bridge 0 22 ?1LkLfJ6cF0hOzckADf342
 l81
 L35
-VX2eSC2Wol5YdJh_TGkl5`3
+Z23 VM>kk3^4JTOS<NQlS44=PJ1
+Z24 !s100 8zWeKcD=cdJRGjdEBWXgH1
 R16
 31
+!i10b 1
 R17
 R18
 R19
 R20
 R21
-!s100 WkCz5X8F;deUFS8YSTm:=2
-!i10b 1
 Eahbrom
-Z22 w1634553092
+Z25 w1634549492
 R5
 R6
 R7
@@ -67,18 +67,18 @@ R9
 R11
 R12
 R13
-Z23 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd
-Z24 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd
+Z26 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd
+Z27 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd
 l0
 L18
 V;<37X2B14EY1B0I>:b]0D1
 R16
 31
-Z25 !s108 1635154712.459000
-Z26 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd|
-Z27 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd|
-Z28 !s102 -cover s
-Z29 o-work work -93 -source -nowarn 1 -nowarn 5 -cover s
+Z28 !s108 1635766208.034000
+Z29 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd|
+Z30 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahbrom.vhd|
+Z31 !s102 -cover s
+Z32 o-work work -93 -source -nowarn 1 -nowarn 5 -cover s
 R21
 !s100 M;o:gHC_id9i?NZlNeoWK3
 !i10b 1
@@ -91,22 +91,22 @@ R10
 R9
 R11
 R12
-Z30 DEx4 work 6 ahbrom 0 22 ;<37X2B14EY1B0I>:b]0D1
+Z33 DEx4 work 6 ahbrom 0 22 ;<37X2B14EY1B0I>:b]0D1
 l46
 L34
 VXSZV0JO[W?>iIUOCLLX231
 R16
 31
-R25
-R26
-R27
 R28
 R29
+R30
+R31
+R32
 R21
 !s100 D<=g=TOZ=kWHgO]eIM8jG3
 !i10b 1
 Ecm0_wrapper
-Z31 w1635154780
+Z34 w1635768984
 R2
 R3
 R4
@@ -119,16 +119,16 @@ R10
 R11
 R12
 R13
-Z32 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd
-Z33 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd
+Z35 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd
+Z36 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd
 l0
 L16
 VHKj61ULA_IezW<5n`=iL[1
 R16
 31
-Z34 !s108 1635154785.306000
-Z35 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd|
-Z36 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd|
+Z37 !s108 1635769141.049000
+Z38 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd|
+Z39 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cm0_wrapper.vhd|
 R20
 R21
 !s100 lKk5`Q:=nUQ<FTLZHY`j]1
@@ -146,17 +146,17 @@ R10
 R11
 R12
 DEx4 work 11 cm0_wrapper 0 22 HKj61ULA_IezW<5n`=iL[1
-l72
+l85
 L27
-VPl8@C3TA;N64:Q3Y8m]UN0
+VWcz[zZmGj@PejIhQ3@ANY2
 R16
 31
-R34
-R35
-R36
+R37
+R38
+R39
 R20
 R21
-!s100 >XJOQ2>HdnX1DU9X:f^<R1
+!s100 C1^SlIkkdK0mUUb;gM_[[1
 !i10b 1
 Pconfig
 R6
@@ -167,90 +167,90 @@ R9
 R11
 R12
 R3
-w1635151788
+w1635765954
 R13
 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/config.vhd
 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/config.vhd
 l0
 L13
-V]3X_Q;GOjlEL9PCN]lNWO1
+VGl8hg:K:9IQL9d?MzXU;Z2
 R16
 31
-R28
-R29
+R31
+R32
 R21
-!s100 ;j7PQoRIb@]aX1[a7Skb13
+!s100 ojcN;fL9R2?;FTWZBM1d=0
 !i10b 1
-!s108 1635154712.243000
+!s108 1635766207.792000
 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/config.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/config.vhd|
 vCORTEXM0DS
 Ie`5EG5?cQRKldaChKCJVT1
 V1L6Qg_jd`_h[58QfX:Ek]0
 R13
-Z37 w1634551413
+Z40 w1634547813
 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/CORTEXM0DS.v
 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/CORTEXM0DS.v
 L0 27
-Z38 OL;L;10.1b;51
+Z41 OL;L;10.1b;51
 r1
 31
-Z39 o-work work -quiet
-Z40 tQuiet 1
+Z42 o-work work -quiet
+Z43 tQuiet 1
 n@c@o@r@t@e@x@m0@d@s
 !i10b 1
 !s100 Tzb1UQ0[PE=f@lEOGWQ4n2
 !s85 0
-!s108 1635154714.094000
+!s108 1635766209.788000
 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/CORTEXM0DS.v|
 !s90 -reportprogress|300|-work|work|-quiet|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/CORTEXM0DS.v|
 vcortexm0ds_logic
 IE@DR;A1i?8S`PT52^:Nc;1
 V^^SAMV@Xd[IRUm[K>SzZ<3
 R13
-R37
+R40
 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cortexm0ds_logic.v
 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cortexm0ds_logic.v
 L0 27
-R38
+R41
 r1
 31
-R39
-R40
+R42
+R43
 !i10b 1
 !s100 z=NNTDh6?:GoC@8K_[Bh]2
 !s85 0
-!s108 1635154714.294000
+!s108 1635766210.002000
 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cortexm0ds_logic.v|
 !s90 -reportprogress|300|-work|work|-quiet|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/cortexm0ds_logic.v|
 Ecpu_disas
-Z41 w1634553288
-Z42 DPx5 grlib 11 sparc_disas 0 22 ?h3QW`cB[>Z;J67F?z9nQ0
-Z43 DPx5 grlib 5 sparc 0 22 R?GCaYSbA`Kg3XYU^Tdlz2
+Z44 w1634549688
+Z45 DPx5 grlib 11 sparc_disas 0 22 ?h3QW`cB[>Z;J67F?z9nQ0
+Z46 DPx5 grlib 5 sparc 0 22 R?GCaYSbA`Kg3XYU^Tdlz2
 R6
 R7
 R10
 R11
 R12
 R13
-Z44 8O:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd
-Z45 FO:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd
+Z47 8O:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd
+Z48 FO:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd
 l0
 L36
 VKSPGb^5EA4QbYK1?`0j;g3
 R16
 31
-Z46 !s108 1635154711.704000
-Z47 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd|
-Z48 !s107 O:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd|
-R28
-R29
+Z49 !s108 1635766206.996000
+Z50 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd|
+Z51 !s107 O:/Git/embedded-rts/lab2-2/lib/work/debug/cpu_disas.vhd|
+R31
+R32
 R21
 !s100 BJa8WZ>[MW<0jk;aRCm[b3
 !i10b 1
 Abehav
-R42
-R43
+R45
+R46
 R6
 R7
 R10
@@ -262,16 +262,16 @@ L52
 V3FV2Aa?L][Aoia[fmHSJA1
 R16
 31
-R46
-R47
-R48
-R28
-R29
+R49
+R50
+R51
+R31
+R32
 R21
 !s100 _[5c318P4X`G5CVS_UE0d0
 !i10b 1
 Edata_swapper
-Z49 w1635157613
+Z52 w1635767568
 R2
 R3
 R4
@@ -284,19 +284,19 @@ R10
 R11
 R12
 R13
-Z50 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd
-Z51 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd
+Z53 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd
+Z54 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd
 l0
 L16
-VL3_II3c]aan>^ID0SWgbB2
+VeKC<7]RO`>L^3OjaKXO;30
 R16
 31
-Z52 !s108 1635157616.676000
-Z53 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd|
-Z54 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd|
+Z55 !s108 1635767589.484000
+Z56 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd|
+Z57 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/data_swapper.vhd|
 R20
 R21
-!s100 FGRzO]jYfSdUj5KnbOXMf2
+!s100 <EaNAC7eAa5>giLCBM9gU1
 !i10b 1
 Abehav
 R2
@@ -310,18 +310,18 @@ R9
 R10
 R11
 R12
-DEx4 work 12 data_swapper 0 22 L3_II3c]aan>^ID0SWgbB2
-l27
+DEx4 work 12 data_swapper 0 22 eKC<7]RO`>L^3OjaKXO;30
+l26
 L25
-ViD2cXNM=``I@eJdFGiHU40
+V_ARC^8[c9UAG9lGlRN]H<1
 R16
 31
-R52
-R53
-R54
+R55
+R56
+R57
 R20
 R21
-!s100 ?WX?JWobFA?ACDM07<3UV3
+!s100 of;@J`C=dGkAQg_@=hEjH2
 !i10b 1
 Pdebug
 R6
@@ -331,7 +331,7 @@ R10
 R9
 R11
 R12
-R41
+R44
 R13
 8O:/Git/embedded-rts/lab2-2/lib/work/debug/debug.vhd
 FO:/Git/embedded-rts/lab2-2/lib/work/debug/debug.vhd
@@ -340,42 +340,42 @@ L31
 VUKYDnZfS:aT>_415YS@3F3
 R16
 31
-R28
-R29
+R31
+R32
 R21
 !s100 >2?o60cYoUCRdY1PWEJzg3
 !i10b 1
-!s108 1635154711.141000
+!s108 1635766206.450000
 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/work/debug/debug.vhd|
 !s107 O:/Git/embedded-rts/lab2-2/lib/work/debug/debug.vhd|
 Egaisler_cpu_disas
-R41
-R42
-R43
+R44
+R45
+R46
 R6
 R7
 R10
 R11
 R12
 R13
-R44
-R45
+R47
+R48
 l0
 L89
 V1bnSY07l=LAeE^Y@<zf;X2
 R16
 31
-R46
-R47
-R48
-R28
-R29
+R49
+R50
+R51
+R31
+R32
 R21
 !s100 GdTf>db1P?1Ge2jaiM^=_2
 !i10b 1
 Abehav
-R42
-R43
+R45
+R46
 R6
 R7
 R10
@@ -387,39 +387,39 @@ L105
 VTEzZ8I?>1kOB^_LMKZhJ`2
 R16
 31
-R46
-R47
-R48
-R28
-R29
+R49
+R50
+R51
+R31
+R32
 R21
 !s100 EN]aXPjQkkL?_a;J3E9Tg3
 !i10b 1
 Egrtestmod
-R41
+R44
 R5
 R8
 R9
-Z55 DPx5 grlib 5 stdio 0 22 a;KkQ@mB[4BjaV2P64L>^2
+Z58 DPx5 grlib 5 stdio 0 22 a;KkQ@mB[4BjaV2P64L>^2
 R6
 R10
 R7
-Z56 DPx7 gaisler 3 sim 0 22 kQiV@MFUHYXA]HOY1jGSl1
+Z59 DPx7 gaisler 3 sim 0 22 kQiV@MFUHYXA]HOY1jGSl1
 R11
 R12
 R13
-Z57 8O:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd
-Z58 FO:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd
+Z60 8O:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd
+Z61 FO:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd
 l0
 L67
 VKT[OzK0Qn>XD0d4Tb[@C12
 R16
 31
-Z59 !s108 1635154711.372000
-Z60 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd|
-Z61 !s107 O:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd|
-R28
-R29
+Z62 !s108 1635766206.674000
+Z63 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd|
+Z64 !s107 O:/Git/embedded-rts/lab2-2/lib/work/debug/grtestmod.vhd|
+R31
+R32
 R21
 !s100 4SPzUf^QXfCEGK>k[4z1Q2
 !i10b 1
@@ -427,11 +427,11 @@ Asim
 R5
 R8
 R9
-R55
+R58
 R6
 R10
 R7
-R56
+R59
 R11
 R12
 DEx4 work 9 grtestmod 0 22 KT[OzK0Qn>XD0d4Tb[@C12
@@ -440,25 +440,25 @@ L86
 VoSXHHU]zPSgb?FZZaQ0_A2
 R16
 31
-R59
-R60
-R61
-R28
-R29
+R62
+R63
+R64
+R31
+R32
 R21
 !s100 E14S8M[?:IanSi`C7hCMk1
 !i10b 1
 Eleon3mp
-Z62 w1635154931
-Z63 DPx4 work 6 config 0 22 ]3X_Q;GOjlEL9PCN]lNWO1
-Z64 DPx3 esa 10 memoryctrl 0 22 V2k;^KE?0QMZ@:Pa7kjiR2
-Z65 DPx7 gaisler 4 jtag 0 22 aLRhU_`ZK1e`=nEJfEJ<C2
-Z66 DPx7 gaisler 3 net 0 22 Uf43:zzRWfjleTaedzkWL0
+Z65 w1635151331
+Z66 DPx4 work 6 config 0 22 Gl8hg:K:9IQL9d?MzXU;Z2
+Z67 DPx3 esa 10 memoryctrl 0 22 V2k;^KE?0QMZ@:Pa7kjiR2
+Z68 DPx7 gaisler 4 jtag 0 22 aLRhU_`ZK1e`=nEJfEJ<C2
+Z69 DPx7 gaisler 3 net 0 22 Uf43:zzRWfjleTaedzkWL0
 R4
-Z67 DPx7 gaisler 4 uart 0 22 gi__23a[PIZocPK>CR]iD2
-Z68 DPx7 gaisler 5 leon3 0 22 YH0AacVmlYB4c9kMe[z]o3
-Z69 DPx7 gaisler 7 memctrl 0 22 <6TodZlN8gn:cQ8J;14iQ1
-Z70 DPx7 techmap 9 allclkgen 0 22 ce2LeHMGTnQzYoUO:1^;W3
+Z70 DPx7 gaisler 4 uart 0 22 gi__23a[PIZocPK>CR]iD2
+Z71 DPx7 gaisler 5 leon3 0 22 YH0AacVmlYB4c9kMe[z]o3
+Z72 DPx7 gaisler 7 memctrl 0 22 <6TodZlN8gn:cQ8J;14iQ1
+Z73 DPx7 techmap 9 allclkgen 0 22 ce2LeHMGTnQzYoUO:1^;W3
 R3
 R5
 R6
@@ -469,32 +469,32 @@ R9
 R11
 R12
 R13
-Z71 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd
-Z72 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd
+Z74 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd
+Z75 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd
 l0
 L44
 V<Mdkm]JbOWCgdR?VE_@Bn3
 R16
 31
-Z73 !s108 1635154934.375000
-Z74 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd|
-Z75 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd|
-R28
-R29
+Z76 !s108 1635766208.346000
+Z77 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd|
+Z78 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/leon3mp.vhd|
+R31
+R32
 R21
 !s100 `00W@X1[nbe11Q6C@OTzY3
 !i10b 1
 Artl
-R30
-R63
-R64
-R65
+R33
 R66
-R4
 R67
 R68
 R69
+R4
 R70
+R71
+R72
+R73
 R3
 R5
 R6
@@ -504,22 +504,22 @@ R10
 R9
 R11
 R12
-Z76 DEx4 work 7 leon3mp 0 22 <Mdkm]JbOWCgdR?VE_@Bn3
+Z79 DEx4 work 7 leon3mp 0 22 <Mdkm]JbOWCgdR?VE_@Bn3
 l226
 L129
 VG^8g0ijIoFlld4C]iB>_U2
 R16
 31
-R73
-R74
-R75
-R28
-R29
+R76
+R77
+R78
+R31
+R32
 R21
 !s100 ZNG_<>WBnEXV`PD3F>Q1a2
 !i10b 1
 Estate_machine
-Z77 w1635158963
+Z80 w1635769947
 R2
 R3
 R4
@@ -532,20 +532,20 @@ R10
 R11
 R12
 R13
-Z78 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd
-Z79 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd
+Z81 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd
+Z82 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd
 l0
 L16
 V5Kb``PWE;W1lzzng>kA>l1
-!s100 HcAC1cjJej1nQ8W^8Yf]c1
 R16
 31
-!i10b 1
-Z80 !s108 1635158970.203000
-Z81 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd|
-Z82 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd|
+Z83 !s108 1635769951.406000
+Z84 !s90 -reportprogress|300|-work|work|-93|-explicit|-quiet|-source|-nowarn|1|-nowarn|5|-novopt|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd|
+Z85 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/state_machine.vhd|
 R20
 R21
+!s100 HcAC1cjJej1nQ8W^8Yf]c1
+!i10b 1
 Abehav
 R2
 R3
@@ -558,81 +558,81 @@ R9
 R10
 R11
 R12
-Z83 DEx4 work 13 state_machine 0 22 5Kb``PWE;W1lzzng>kA>l1
+DEx4 work 13 state_machine 0 22 5Kb``PWE;W1lzzng>kA>l1
 l43
 L33
-Vi`EaZaVoZUb^UA=PTB4]U3
-!s100 ]l`E4P:jjH4KM]62B^9cB1
+V^?zAFG<2J47PiC<GJbMXo0
 R16
 31
-!i10b 1
-R80
-R81
-R82
+R83
+R84
+R85
 R20
 R21
+!s100 Jl[DOJ4V]^aJci?EY[IWT1
+!i10b 1
 Etestbench
-Z84 w1634553095
-R63
-Z85 DPx4 work 5 debug 0 22 UKYDnZfS:aT>_415YS@3F3
-Z86 DPx5 hynix 17 hy5ps121621f_pack 0 22 2fTWOlB8ogXG774Wa;^@R0
-Z87 DPx5 hynix 10 components 0 22 o8_LgJF_XU[3A5M_AZLI@0
-Z88 DPx6 micron 10 components 0 22 0TIhCD]P[_JiP8=;eZK8f2
-R55
-R56
+Z86 w1634549495
+R66
+Z87 DPx4 work 5 debug 0 22 UKYDnZfS:aT>_415YS@3F3
+Z88 DPx5 hynix 17 hy5ps121621f_pack 0 22 2fTWOlB8ogXG774Wa;^@R0
+Z89 DPx5 hynix 10 components 0 22 o8_LgJF_XU[3A5M_AZLI@0
+Z90 DPx6 micron 10 components 0 22 0TIhCD]P[_JiP8=;eZK8f2
+R58
+R59
 R3
 R5
 R4
-R67
+R70
 R6
 R7
 R8
 R10
 R9
-Z89 DPx7 gaisler 7 libdcom 0 22 aBf[HY;mCCl`R5]fmGVVS0
+Z91 DPx7 gaisler 7 libdcom 0 22 aBf[HY;mCCl`R5]fmGVVS0
 R11
 R12
 R13
-Z90 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd
-Z91 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd
+Z92 8O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd
+Z93 FO:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd
 l0
 L42
 VQWHaMiY@PTmT?P5U?[MI_1
 R16
 31
-Z92 !s108 1635154713.060000
-Z93 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd|
-Z94 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd|
-R28
-R29
+Z94 !s108 1635766208.720000
+Z95 !s90 -reportprogress|300|-work|work|-93|-source|-nowarn|1|-nowarn|5|-cover|s|O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd|
+Z96 !s107 O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/testbench.vhd|
+R31
+R32
 R21
 !s100 hdYXOz[00TYb6Ac2n@MoH2
 !i10b 1
 Abehav
-R64
-R65
-R66
+R67
 R68
 R69
-R70
-R76
-R63
-R85
-R86
+R71
+R72
+R73
+R79
+R66
 R87
 R88
-R55
-R56
+R89
+R90
+R58
+R59
 R3
 R5
 R4
-R67
+R70
 R6
 R7
 R8
 R10
 R9
-R89
+R91
 R11
 R12
 DEx4 work 9 testbench 0 22 QWHaMiY@PTmT?P5U?[MI_1
@@ -641,11 +641,11 @@ L55
 V;FBK2MR[S>BiZ@^9KzJn83
 R16
 31
-R92
-R93
 R94
-R28
-R29
+R95
+R96
+R31
+R32
 R21
 !s100 oNML2<9bl:4K:>:[J00IJ0
 !i10b 1

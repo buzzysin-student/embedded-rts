@@ -18,10 +18,10 @@ entity state_machine is
     -- Clock and reset
     clkm    : in std_logic;
     rstn    : in std_logic;
-    -- Wierd stuff
+    -- Weird stuff
     dmai    : out ahb_dma_in_type;
     dmao    : in ahb_dma_out_type;
-    -- ARM Cortext-M0 AHB-Lite signals
+    -- ARM Cortex-M0 AHB-Lite signals
     HADDR   : in std_logic_vector (31 downto 0);
     HSIZE   : in std_logic_vector (2 downto 0);
     HTRANS  : in std_logic_vector (1 downto 0);
@@ -52,23 +52,23 @@ begin
   end process;
   
   -- Mealy/Moore (delete as necessary)
+  -- Inputs: dmao.ready, HTRANS
+  -- Output: dmai.start, HREADY
   next_state_logic : process (curState, clkm) is
   begin
     case curState is 
       when IDLE =>
-        if HTRANS = 10 then
-          -- Something illegal is about to happen.
-          dmai.start <= '1';
-          -- Something illegal happened.
-          nextState <= FETCH;
+        if HTRANS = "10" then
+          nextState <= IDLE_FETCH;
         end if; 
+      when IDLE_FETCH => 
+        nextState <= FETCH;
       when FETCH =>
         if dmao.ready = '1' then
-          -- Something illegal is about to happen.
-          HREADY <= '1';
-          -- Something illegal happened.
-          nextState <= IDLE;
+          nextState <= FETCH_IDLE;
         end if;
+      when FETCH_IDLE => 
+        nextState <= IDLE;
       when OTHERS =>
     end case;
   end process;
@@ -79,9 +79,13 @@ begin
       when IDLE =>
         HREADY <= '1';
         dmai.start <= '0';
+      when IDLE_FETCH => 
+          dmai.start <= '1';
       when FETCH =>
         HREADY <= '0';
         dmai.start <= '0';
+      when FETCH_IDLE =>
+          HREADY <= '1';
       when OTHERS =>
     end case;
   end process;

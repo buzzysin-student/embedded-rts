@@ -195,5 +195,5 @@ package config is
   constant CFG_DUART : integer := 1;
   
 -- ADDITIONAL
-  constant CFG_CM0 : integer := 0;
+  constant CFG_CM0 : integer := 1;
 end;

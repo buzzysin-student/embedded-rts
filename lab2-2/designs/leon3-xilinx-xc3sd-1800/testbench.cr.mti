@@ -500,8 +500,6 @@
 
 } {} {}} ../../lib/eth/core/eth_edcl_ahb_mst.vhd {1 {vcom -work eth -93 -source -nowarn 1 -nowarn 5 -cover s O:/Git/embedded-rts/lab2-2/lib/eth/core/eth_edcl_ahb_mst.vhd
 
-} {} {}} O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahblite_bridge.vhd {1 {vcom -work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -novopt O:/Git/embedded-rts/lab2-2/designs/leon3-xilinx-xc3sd-1800/ahblite_bridge.vhd
-
 } {} {}} ../../lib/techmap/inferred/ddr_inferred.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s O:/Git/embedded-rts/lab2-2/lib/techmap/inferred/ddr_inferred.vhd
 
 } {} {}} ../../lib/gaisler/leon3/grfpwxsh.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s O:/Git/embedded-rts/lab2-2/lib/gaisler/leon3/grfpwxsh.vhd
