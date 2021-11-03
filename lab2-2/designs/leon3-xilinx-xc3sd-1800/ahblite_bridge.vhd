@@ -34,62 +34,62 @@ end;
  
 architecture structural of AHB_bridge is 
  
---declare a component for state_machine 
-component state_machine is
-  port (
-    -- Clock and reset
-    clkm    : in std_logic;
-    rstn    : in std_logic;
-    -- Wierd stuff
-    dmai    : out ahb_dma_in_type;
-    dmao    : in ahb_dma_out_type;
-    -- ARM Cortex-M0 AHB-Lite signals
-    HADDR   : in std_logic_vector (31 downto 0);
-    HSIZE   : in std_logic_vector (2 downto 0);
-    HTRANS  : in std_logic_vector (1 downto 0);
-    HWRITE  : in std_logic;
-    HREADY  : out std_logic
-  );
-end component;
+  --declare a component for state_machine 
+  component state_machine is 
+    port (
+      -- Clock and reset
+      clkm    : in std_logic;
+      rstn    : in std_logic;
+      -- AHB Signals
+      dmai    : out ahb_dma_in_type;
+      dmao    : in  ahb_dma_out_type;
+      -- CortexM0 signals
+      HADDR   : in std_logic_vector(31 downto 0);
+      HSIZE   : in std_logic_vector( 2 downto 0);
+      HTRANS  : in std_logic_vector( 1 downto 0);
+      HWDATA  : in std_logic_vector(31 downto 0);
+      HWRITE  : in std_logic;
+      HREADY  : out std_logic
+    );
+  end component;
+     
+  --declare a component for ahbmst
+  component ahbmst is 
+    port (
+      rst  : in  std_ulogic;
+      clk  : in  std_ulogic;
+      dmai : in ahb_dma_in_type;
+      dmao : out ahb_dma_out_type;
+      ahbi : in  ahb_mst_in_type;
+      ahbo : out ahb_mst_out_type
+    );   
+  end component;
    
---declare a component for ahbmst 
-component ahbmst is
-  port(
-    -- Clock and reset
-    rst : in std_logic;
-    clk : in std_logic;
-    -- AHB fun things
-    dmai : in  ahb_dma_in_type;
-    dmao : out ahb_dma_out_type;
-    ahbo : out ahb_mst_out_type;
-    ahbi : in ahb_mst_in_type
-  );
-end component;  
- 
---declare a component for data_swapper
-component data_swapper is 
-  port (
-    dmao    : in ahb_dma_out_type;
-    -- ARM Cortex-M0 AHB-Lite Signals
-    HRDATA  : out std_logic_vector (31 downto 0)
-  );
-end component;   
+  --declare a component for data_swapper  
+  component data_swapper is 
+    port (
+      -- AHB Signals
+      dmao : in ahb_dma_out_type;
+      -- To CORTEXM0DS
+      HRDATA : out std_logic_vector(31 downto 0)
+    );
+  end component; 
        
-signal dmai : ahb_dma_in_type; 
-signal dmao : ahb_dma_out_type; 
+  signal dmai : ahb_dma_in_type; 
+  signal dmao : ahb_dma_out_type; 
  
 begin 
  
--- instantiate state_machine component and make the connections 
-init_state_machine : state_machine
-  port map (clkm, rstn, dmai, dmao, HADDR, HSIZE, HTRANS, HWRITE, HREADY);
- 
--- instantiate the ahbmst component and make the connections   
-init_ahbmst : ahbmst
-  port map (rstn, clkm, dmai, dmao, ahbmo, ahbmi);
- 
--- instantiate the data_swapper component and make the connections 
-init_data_swapper : data_swapper
+  -- instantiate state_machine component and make the connections 
+  init_state_machine : state_machine
+  port map (clkm, rstn, dmai, dmao, HADDR, HSIZE, HTRANS, HWDATA, HWRITE, HREADY);
+   
+  -- instantiate the ahbmst component and make the connections   
+  init_ahbmst : ahbmst
+  port map (rstn, clkm, dmai, dmao, ahbmi, ahbmo);
+   
+  -- instantiate the data_swapper component and make the connections 
+  init_data_swapper : data_swapper
   port map (dmao, HRDATA);
  
 end structural;
