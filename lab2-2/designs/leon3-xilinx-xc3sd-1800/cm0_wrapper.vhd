@@ -77,6 +77,14 @@ architecture structural of cm0_wrapper is
       HREADY : out std_logic                       -- AHB stall signal 
     ); 
   end component;
+  
+  component detectorbus is
+    port ( 
+      clkm      : in  std_logic;
+      databus   : in  std_logic_vector(31 downto 0);
+      trigger   : out std_logic
+    );
+  end component;
 
   signal sHADDR       : std_logic_vector(31 downto 0);
   signal sHSIZE       : std_logic_vector(2 downto 0);
@@ -85,6 +93,9 @@ architecture structural of cm0_wrapper is
   signal sHWRITE      : std_logic;
   signal sHRDATA      : std_logic_vector(31 downto 0);
   signal sHREADY      : std_logic;
+  
+  -- LED signal
+  signal led          : std_logic; 
   
 begin
   
@@ -129,5 +140,9 @@ begin
     HRDATA  => sHRDATA,
     HREADY  => sHREADY
   );
+  
+  -- Detector Bus LED 
+  init_detector_bus : detectorbus
+  port map (clkm, sHRDATA, led);
     
 end architecture;

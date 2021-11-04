@@ -46,10 +46,12 @@ begin
   
   next_state_register : process(clkm, rstn) is
   begin
-    if rstn = '0' then
-      curState <= IDLE;
-    elsif clkm'event and clkm = '1' then
-      curState <= nextState;
+    if clkm'event and clkm = '1' then
+      if rstn = '0' then
+        curState <= IDLE;
+      else
+        curState <= nextState;
+      end if;
     end if;
   end process;
   
@@ -73,19 +75,7 @@ begin
     end case; 
   end process;
 
-
-  -- AHB DMA IN TYPE
-  --type ahb_dma_in_type is record
-  --    address         : std_logic_vector(31 downto 0);
-  --    wdata           : std_logic_vector(AHBDW-1 downto 0);
-  --    start           : std_ulogic;
-  --    burst           : std_ulogic;
-  --    write           : std_ulogic;
-  --    busy            : std_ulogic;
-  --    irq             : std_ulogic;
-  --    size            : std_logic_vector(2 downto 0);
-  --  end record;
-  next_state_outputs : process(curState) is
+  next_state_outputs : process(curState, clkm) is
   begin
     case curState is
       when IDLE =>  

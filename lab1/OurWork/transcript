@@ -1,1 +1,140 @@
-# 0 compiles, 6 failed with no errors. 
+# Error opening C:/Users/uy19124/OneDrive - University of Bristol/Documents/Embedded/embedded-rts/lab1/Source/DetectorBus.vhd
+# Path name 'C:/Users/uy19124/OneDrive - University of Bristol/Documents/Embedded/embedded-rts/lab1/Source/DetectorBus.vhd' doesn't exist.
+# Error opening C:/Users/uy19124/OneDrive - University of Bristol/Documents/Embedded/embedded-rts/lab1/Source/CM0_DSSystem.vhd
+# Path name 'C:/Users/uy19124/OneDrive - University of Bristol/Documents/Embedded/embedded-rts/lab1/Source/CM0_DSSystem.vhd' doesn't exist.
+# Error opening C:/Users/uy19124/OneDrive - University of Bristol/Documents/Embedded/embedded-rts/lab1/Source/CM0_DSSystem.vhd
+# Path name 'C:/Users/uy19124/OneDrive - University of Bristol/Documents/Embedded/embedded-rts/lab1/Source/CM0_DSSystem.vhd' doesn't exist.
+# Compile of CM0_DSSystem.vhd was successful.
+# Compile of cortexm0_memory.vhd was successful.
+# Compile of CORTEXM0DS.v was successful.
+# Compile of cortexm0ds_logic.v was successful.
+# Compile of DetectorBus.vhd was successful.
+# Compile of tb_cortexm0.vhd was successful.
+# 6 compiles, 0 failed with no errors. 
+# Compile of CM0_DSSystem.vhd was successful.
+# Compile of cortexm0_memory.vhd was successful.
+# Compile of CORTEXM0DS.v was successful.
+# Compile of cortexm0ds_logic.v was successful.
+# Compile of DetectorBus.vhd was successful.
+# Compile of tb_cortexm0.vhd was successful.
+# 6 compiles, 6 failed with no errors. 
+vsim -gui -t ps -novopt work.tb_cortexm0
+# vsim -gui -t ps -novopt work.tb_cortexm0 
+# Loading std.standard
+# Refreshing O:/Git/embedded-rts/lab1/OurWork/work.tb_cortexm0(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_cortexm0(tb)
+# Refreshing O:/Git/embedded-rts/lab1/OurWork/work.cm0_dssystem(behavioral)
+# Loading unisim.vcomponents
+# Loading work.cm0_dssystem(behavioral)
+# Refreshing O:/Git/embedded-rts/lab1/OurWork/work.detectorbus(behavioral)
+# Loading work.detectorbus(behavioral)
+# Loading unisim.fdce(fdce_v)
+# Refreshing O:/Git/embedded-rts/lab1/OurWork/work.cortexm0_memory(cortexm0_memory_a)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.cortexm0_memory(cortexm0_memory_a)
+# Loading xilinxcorelib.blk_mem_gen_v7_1(behavioral)
+# Loading ieee.std_logic_textio(body)
+# Loading xilinxcorelib.blk_mem_gen_v7_1_mem_module(mem_module_behavioral)
+# ** Note:  Block Memory Generator CORE Generator module loading initial data...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# Loading xilinxcorelib.blk_mem_gen_v7_1_output_stage(output_stage_behavioral)
+# Loading xilinxcorelib.blk_mem_gen_v7_1_softecc_output_reg_stage(softecc_output_reg_stage_behavioral)
+# Refreshing O:/Git/embedded-rts/lab1/OurWork/work.CORTEXM0DS
+# Loading work.CORTEXM0DS
+# Refreshing O:/Git/embedded-rts/lab1/OurWork/work.cortexm0ds_logic
+# Loading work.cortexm0ds_logic
+add wave -position insertpoint  \
+sim:/tb_cortexm0/reset \
+sim:/tb_cortexm0/clk \
+sim:/tb_cortexm0/led0 \
+sim:/tb_cortexm0/led1 \
+sim:/tb_cortexm0/led2 \
+sim:/tb_cortexm0/led3 \
+sim:/tb_cortexm0/led4 \
+sim:/tb_cortexm0/led5 \
+sim:/tb_cortexm0/led6 \
+sim:/tb_cortexm0/led7 \
+sim:/tb_cortexm0/clock_period \
+sim:/tb_cortexm0/half_period
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: uy19124  Hostname: IT078135  ProcessID: 4316
+# 
+#           Attempting to use alternate WLF file "./wlftviexez".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftviexez
+# 
+restart; run 1000 ns
+# ** Note:  Block Memory Generator CORE Generator module loading initial data...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+restart; run 2000 ns
+# ** Note:  Block Memory Generator CORE Generator module loading initial data...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+restart; run 4 s
+# ** Note:  Block Memory Generator CORE Generator module loading initial data...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# Invalid time value: 4 s
+restart; run 4 ms
+# ** Note:  Block Memory Generator CORE Generator module loading initial data...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+add wave -position insertpoint  \
+sim:/tb_cortexm0/DUT/Inst_Detector/DataBus \
+sim:/tb_cortexm0/DUT/Inst_Detector/Detector
+restart; run 4 ms
+# ** Note:  Block Memory Generator CORE Generator module loading initial data...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb_cortexm0/DUT/Inst_Memory/U0/native_mem_module/mem_module
+# Causality operation skipped due to absense of debug database file
+# msg=invalid command name ".main_pane.dataflow.interior.cs.body.pw.df.c.nlv" 
+# error on .main_pane.dataflow -closecommand : invalid command name ".main_pane.dataflow.interior.cs.body.pw.df.c"
